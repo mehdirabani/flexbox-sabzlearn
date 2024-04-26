@@ -5,6 +5,11 @@
 /* todo: Root Project settinge */
 :root {
   --primary-color: #2f5bea;
+  --primary-color-hover: #0f38be;
+  --secundary-color: #87bc25;
+  --heding-color: #081d43;
+  --text-color: #6c7890;
+  --font-tt: "TTNorms", "tahoma";
 }
 
 /* * basick style */
@@ -17,4 +22,49 @@ body {
   margin-right: auto;
   /* margin-top: 1rem; */
   font-size: 1.6rem;
+}
+
+.btn {
+  color: #fff;
+  padding: 1rem 3rem;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  transition: background 0.2s ease-in;
+}
+.btn-primary{
+  background: var(--primary-color);
+}
+.btn-primary:hover{
+  background: var(--primary-color-hover);
+}
+/* Writng Main Style Project  */
+.header {
+  margin-top: 1rem;
+}
+.continer {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  gap: 5rem;
+}
+.navbar__logo {
+}
+.navbar__logo-image {
+}
+.navbar__menu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.navbar__menu-item {
+  font-family: var(--font-tt);
+  color: var(--heding-color);
 }
