@@ -1,7 +1,6 @@
 @charset "utf-8";
 @import "./resetCss.css";
 @import "./font.css";
-@import "./utilities.css";
 
 /* todo: Root Project settinge */
 :root {
@@ -48,14 +47,6 @@ body {
   background: var(--primary-color-hover);
 }
 /* * Writng Main Style Project  */
-.continer {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.continer-custom {
-  max-width: 1000px;
-}
 /* Start Header Section Style Code */
 .header {
   margin-top: 1rem;
@@ -68,10 +59,6 @@ body {
 .navbar {
   display: flex;
   gap: 5rem;
-}
-.navbar__logo {
-}
-.navbar__logo-image {
 }
 .navbar__menu {
   display: flex;
@@ -113,3 +100,40 @@ body {
   display: block;
 }
 /* Start Servises Section Style Code  */
+.servises {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.servises__subtitle {
+  font: 1.5rem var(--font-tt);
+  color: var(--text-color);
+}
+.servises__title {
+  font: 500 3rem/5rem var(--font-tt);
+}
+.servises__box {
+  margin-top: 2rem;
+  max-width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servises-box__card {
+  text-align: center;
+  font-family: var(--font-tt);
+  line-height: 1.8;
+}
+.servises-box-card__title {
+  color: var(--heding-color);
+  font-size: 1.8rem;
+}
+.servises-box-card__subtitle {
+  color: var(--text-color);
+  font-size: 1.6rem;
+}
+.servises__image {
+  max-width: 100%;
+}
