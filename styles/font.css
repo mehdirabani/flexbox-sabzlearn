@@ -1,0 +1,48 @@
+/* ! KalamehWeb */
+@font-face {
+  font-family: "kalam";
+  src: url("../assets/fonts/woff/KalamehWeb-Thin.woff") format("woff"),
+    url("../assets/fonts/woff2/KalamehWeb-Thin.woff2") format("woff2");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "kalam";
+  src: url("../assets/fonts/woff/KalamehWeb-Regular.woff") format("woff"),
+    url("../assets/fonts/woff2/KalamehWeb-Regular.woff2") format("woff2");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "kalam";
+  src: url("../assets/fonts/woff/KalamehWeb-Bold.woff") format("woff"),
+    url("../assets/fonts/woff2/KalamehWeb-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "kalam";
+  src: url("../assets/fonts/woff/KalamehWeb-Black.woff") format("woff"),
+    url("../assets/fonts/woff2/KalamehWeb-Black.woff2") format("woff2");
+  font-weight: 900;
+}
+
+/* ! Times Roman Italic */
+@font-face {
+  font-family: "Times Roman Italic";
+  src: url("../assets/fonts/ttf/Times-new-roman-italic.ttf") format("truetype");
+}
+
+/* ! TTNorms */
+@font-face {
+  font-family: "TTNorms";
+  src: url("../assets/fonts/otf/TTNorms-Light.otf") format("openType");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "TTNorms";
+  src: url("../assets/fonts/otf/TTNorms-Regular.otf") format("openType");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "TTNorms";
+  src: url("../assets/fonts/otf/TTNorms-Medium.otf") format("openType");
+  font-weight: 500;
+}

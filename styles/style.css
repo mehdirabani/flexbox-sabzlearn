@@ -1,0 +1,20 @@
+@charset "utf-8";
+@import "./resetCss.css";
+@import "./font.css";
+
+/* todo: Root Project settinge */
+:root {
+  --primary-color: #2f5bea;
+}
+
+/* * basick style */
+html {
+  font-size: 10px;
+}
+body {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 1rem; */
+  font-size: 1.6rem;
+}
