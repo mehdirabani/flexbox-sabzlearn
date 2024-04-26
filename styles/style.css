@@ -7,6 +7,7 @@
   --primary-color: #2f5bea;
   --primary-color-hover: #0f38be;
   --secundary-color: #87bc25;
+  --secundary-color-hover: #648b1c;
   --heding-color: #081d43;
   --text-color: #6c7890;
   --font-tt: "TTNorms", "tahoma";
@@ -36,10 +37,17 @@ body {
 .btn-primary {
   background: var(--primary-color);
 }
+.btn-secundary {
+  background: var(--secundary-color);
+}
+.btn-secundary:hover {
+  background: var(--secundary-color-hover);
+}
 .btn-primary:hover {
   background: var(--primary-color-hover);
 }
-/* Writng Main Style Project  */
+/* * Writng Main Style Project  */
+/* Start Header Section Style Code */
 .header {
   margin-top: 1rem;
 }
@@ -70,4 +78,33 @@ body {
   font-family: var(--font-tt);
   color: var(--heding-color);
   font-size: 1.5rem;
+}
+
+/* Start Home Section Style Code */
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+.home__description {
+  display: flex;
+  flex-direction: column;
+}
+.home__title {
+  font: 500 3.6rem var(--font-tt);
+}
+.home__caption {
+  margin-top: 2rem;
+  font: 1.6rem/3rem var(--font-tt);
+  max-width: 50rem;
+}
+.home__link {
+  margin-top: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.home__image {
+}
+.home__image-photo {
 }

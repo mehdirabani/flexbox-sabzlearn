@@ -126,6 +126,7 @@ table {
 /*  todo custom resetCss style  */
 * {
   box-sizing: border-box;
+  line-height: 1.6;
 }
 a {
   text-decoration: none;
