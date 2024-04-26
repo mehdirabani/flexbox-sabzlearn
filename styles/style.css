@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "./resetCss.css";
 @import "./font.css";
+@import "./utilities.css";
 
 /* todo: Root Project settinge */
 :root {
@@ -47,14 +48,17 @@ body {
   background: var(--primary-color-hover);
 }
 /* * Writng Main Style Project  */
-/* Start Header Section Style Code */
-.header {
-  margin-top: 1rem;
-}
 .continer {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+.continer-custom {
+  max-width: 1000px;
+}
+/* Start Header Section Style Code */
+.header {
+  margin-top: 1rem;
 }
 .nav {
   display: flex;
@@ -104,9 +108,8 @@ body {
   gap: 2rem;
   flex-wrap: wrap;
 }
-.home__image {
-}
 .home__image-photo {
   width: 100%;
   display: block;
 }
+/* Start Servises Section Style Code  */
