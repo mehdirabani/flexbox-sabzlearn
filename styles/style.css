@@ -30,11 +30,13 @@ body {
   border-radius: 0.7rem;
   cursor: pointer;
   transition: background 0.2s ease-in;
+  font-size: 1.4rem;
+  font-family: var(--font-tt);
 }
-.btn-primary{
+.btn-primary {
   background: var(--primary-color);
 }
-.btn-primary:hover{
+.btn-primary:hover {
   background: var(--primary-color-hover);
 }
 /* Writng Main Style Project  */
@@ -67,4 +69,5 @@ body {
 .navbar__menu-item {
   font-family: var(--font-tt);
   color: var(--heding-color);
+  font-size: 1.5rem;
 }
