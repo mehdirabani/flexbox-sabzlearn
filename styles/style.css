@@ -193,8 +193,6 @@ body {
   border-top: 1px solid #e8ebef;
   padding-top: 0.5rem;
 }
-.comment__photo {
-}
 .comment__name {
   font: 1.2rem var(--font-tt);
   color: var(--heding-color);
@@ -231,5 +229,46 @@ body {
   gap: 3rem;
 }
 .portfolio__image {
-  border-radius: .3rem;
+  border-radius: 0.3rem;
+}
+
+/* Start Email Section Style Code */
+.email {
+  margin-top: 5rem;
+  padding: 10rem 0;
+  background: var(--primary-color);
+}
+.email__wraper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.email__title {
+  color: #fff;
+  font: 2.5rem var(--font-tt);
+}
+.email__form {
+  position: relative;
+}
+.email__input {
+  outline: 0;
+  width: 35.2rem;
+  height: 5rem;
+  border-radius: 0.4rem;
+  border: 0;
+}
+.email__btn {
+  position: absolute;
+  right: .3rem;
+  top: 1rem;
+  bottom: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: var(--primary-color-hover);
+  color: #fff;
+  width: 6rem;
+  height: 5rem;
+  outline: 0;
+  border: 0;
+  border-radius: 0.3rem;
 }
